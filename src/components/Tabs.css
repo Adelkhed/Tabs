@@ -1,0 +1,30 @@
+.container{
+    width: 400px;
+    margin: 10px;
+
+}
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.content-tab{
+    width: 100px;
+    height: 50px;
+    margin: 3px;
+    
+    border: 2px solid rgb(118, 110, 110);
+
+}
+.content-tab.active{
+    background-color: #06101b;
+    color: #fff;
+    border: 2px solid rgb(245, 245, 245);
+}
+.tab-result{
+    width: 350px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid rgb(118, 110, 110);
+
+}
